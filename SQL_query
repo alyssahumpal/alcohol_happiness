@@ -1,0 +1,10 @@
+SELECT 
+country, 
+region, 
+happinessscore,
+GDP_PerCapita,
+Beer_PerCapita, 
+Spirit_PerCapita,
+Wine_PerCapita
+ FROM `runningqueries.happiness_alcohol.happiness_alcohol_consumption` 
+ ORDER BY happinessscore DESC
